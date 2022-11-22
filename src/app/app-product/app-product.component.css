@@ -1,0 +1,42 @@
+.product-body{
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-image{
+    width: 45%;
+}
+.product-image img{
+    border-radius: 15px;
+}
+.product-description{
+    width: 45%;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1rem;
+}
+h3{
+    font-size: 2.3rem;
+}
+button{
+    padding: 10px 20px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buy-now{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.add-cart{
+    background-color: black;
+    color: white;
+}

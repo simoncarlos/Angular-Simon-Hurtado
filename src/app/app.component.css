@@ -1,0 +1,22 @@
+.grid-body{
+    background-color: #fcfcf4;
+    display: grid;
+    grid-template:  "toolbar toolbar"
+                    "navbar  product";
+    grid-template-columns: 80px calc(100vw - 80px);
+    grid-template-rows: 80px calc(100vh - 80px);
+}
+
+.grid-toolbar{
+    grid-area: toolbar;
+    border-bottom: 2px solid black;
+}
+
+.grid-navbar{
+    grid-area: navbar;
+}
+
+.grid-product{
+    grid-area: product;
+    border-left: 2px solid black;
+}
