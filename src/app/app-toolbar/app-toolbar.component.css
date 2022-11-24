@@ -1,0 +1,32 @@
+aside{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-right: 3px solid black;
+}
+.toolbar-profile{
+
+}
+.toolbar-menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.toolbar-menu i{
+    margin: 5px 0;
+}
+i{
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+i:hover{
+    transform: scale(1.1);
+    color: red;
+}
